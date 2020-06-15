@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/source.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="user-nav">
+            <div class="main-container user-nav-inner">
+                <div class="user-options">
+                        <div class="user-options__item --currency">
+                            <select name="user-currency">
+                                <option value="" selected>USD</option>
+                                <option value="">Eur</option>
+                                <option value="">Rur</option>
+                            </select>
+                        </div>
+                        <div class="user-options__item --lang">
+                            <select name="user-lang">
+                                <option value="" selected>English</option>
+                                <option value="">Deutsche</option>
+                                <option value="">Español</option>
+                            </select>
+                        </div>
+                        <div class="user-options__item --faq">
+                            <select name="user-faq">
+                                <option value="" selected>Help</option>
+                                <option value="">Faq</option>
+                            </select>
+                        </div>
+                </div>
+                <ul class="user-login">
+                    <li class="user-login__item"><a href="#"><i class="fa fa-user-alt"></i>Login</a></li>
+                    <li class="user-login__item"><a href="#"><i class="fa fa-lock"></i>Register</a></li>
+                </ul>
+            </div> 
+        </div>
+        <div class="header-middle">
+            <div class="main-container header-middle__inner">
+                <ul class="contact-us">
+                    <li class="contact-us__item">
+                        <a class="contact-us__link" href="tel:23003560222">
+                            <i class="fa fa-mobile-alt"></i>
+                            <span>2300 - 3560 - 222</span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="logo-block"><img class="logo-block__image" src="./img/main-logo.png" width="165" height="77" alt=""></a>
+                <a href="#" class="cart-button-block">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">9</span>
+                    <span class="visually-hidden">Cart</span>
+                </a>
+            </div>
+        </div>
+        <nav class="main-menu">
+           <div class="main-container main-menu__inner">
+                <form class="nav-search">
+                    <div class="nav-search__item --category">
+
+                        <select name="" id="">
+                            <option value="" selected>Select a category</option>
+                            <option value="">1</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+                    </div>
+                    <div class="nav-search__item --product">
+                        <input type="search" placeholder="Search products">
+                        <button class="nav-search__button" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            <div class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a>Home</a></li>
+                    <li class="main-nav__item"><a>Furniture</a></li>
+                    <li class="main-nav__item"><a>Chair</a></li>
+                    <li class="main-nav__item"><a>Table</a></li>
+                    <li class="main-nav__item"><a>Sofa</a></li>
+                    <li class="main-nav__item"><a>Bedroom</a></li>
+                    <li class="main-nav__item"><a>Blog</a></li>
+                </ul>
+                <button class="main-nav__toggle " type="button"><i class="fa fa-align-justify"></i></button>
+            </div>  
+        </div>  
+    </nav>
+    </header>
+    <section class="sale-block">
+        <div class="main-container sale-block__inner">
+            <div class="product-card-slider__wrap">
+            <div class="product-card-slider__heading">
+                <span class="product-card-slider__title">Hot details</span>
+            </div>
+        <div class="product-card-slider slider">
+            <div class="product-card">
+                <div class="product-card__inner">
+                    <div class="product-card__label-wrapper">
+                        <p class="product-card__label">Sale</p>
+                    </div>
+                    <div class="product-card__img">
+                        <img src="./img/product.jpg" alt="">
+                        <div class="product-card__hover-actions">
+                            <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                            <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card__details">
+                        <div class="product-card__description">
+                            <a href="#" class="product-card__title">Product Name</a>
+                            <div class="product-card__raiting">
+                                <fieldset class="rating">
+                                    <div class="rating__container">
+                                    <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                    <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                    <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                    <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                    <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                    <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                        
+                                    <div class="rating__focus"></div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="product-card__actions"> 
+                            <div class="product-card__add-actions">
+                                <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                            </div>
+                            <div class="product-card__price">
+                                <div class="product-card__old-price">$35.00</div>
+                                <button class="product-card__current-price button">$25.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card__inner">
+                    <div class="product-card__label-wrapper">
+                        <p class="product-card__label">Sale</p>
+                    </div>
+                    <div class="product-card__img">
+                        <img src="./img/product.jpg" alt="">
+                        <div class="product-card__hover-actions">
+                            <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                            <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card__details">
+                        <div class="product-card__description">
+                            <a href="#" class="product-card__title">Product Name</a>
+                            <div class="product-card__raiting">
+                                <fieldset class="rating">
+                                    <div class="rating__container">
+                                    <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                    <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                    <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                    <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                    <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                    <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                        
+                                    <div class="rating__focus"></div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="product-card__actions"> 
+                            <div class="product-card__add-actions">
+                                <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                            </div>
+                            <div class="product-card__price">
+                                <div class="product-card__old-price">$35.00</div>
+                                <button class="product-card__current-price button">$25.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card__inner">
+                    <div class="product-card__label-wrapper">
+                        <p class="product-card__label">Sale</p>
+                    </div>
+                    <div class="product-card__img">
+                        <img src="./img/product.jpg" alt="">
+                        <div class="product-card__hover-actions">
+                            <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                            <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card__details">
+                        <div class="product-card__description">
+                            <a href="#" class="product-card__title">Product Name</a>
+                            <div class="product-card__raiting">
+                                <fieldset class="rating">
+                                    <div class="rating__container">
+                                    <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                    <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                    <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                    <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                    <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                        
+                                    <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                    <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                        
+                                    <div class="rating__focus"></div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="product-card__actions"> 
+                            <div class="product-card__add-actions">
+                                <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                            </div>
+                            <div class="product-card__price">
+                                <div class="product-card__old-price">$35.00</div>
+                                <button class="product-card__current-price button">$25.00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+            </div>
+            <div class="main-slider">
+        <ul class="main-slider__list">
+            <li class="main-slider__item">
+                <div class="main-slider__img">
+                    <img src="./img/slider-img2.jpg" alt="">
+                </div>
+                <div class="main-slider__content">
+                    <p class="main-slider__description primary">Indoor <b>furniture</b></p>
+                    <p class="main-slider__description secondary">save up to 50% of all furniture</p>
+                    <a href="#" class="button main-slider__button">Shop Now</a>
+                </div>
+            </li>
+            <li class="main-slider__item">
+                <div class="main-slider__img">
+                    <img src="./img/slider-img3.jpg" alt="">
+                </div>
+                <div class="main-slider__content">
+                    <p class="main-slider__description primary">Indoor <b>furniture</b></p>
+                    <p class="main-slider__description secondary">save up to 50% of all furniture</p>
+                    <a href="#" class="button main-slider__button">Shop Now</a>
+                </div>
+            </li>
+            <li class="main-slider__item">
+                <div class="main-slider__img">
+                    <img src="./img/slider-img.jpg" alt="">
+                </div>
+                <div class="main-slider__content">
+                    <p class="main-slider__description primary">Indoor <b>furniture</b></p>
+                    <p class="main-slider__description secondary">save up to 50% of all furniture</p>
+                    <a href="#" class="button main-slider__button">Shop Now</a>
+                </div>
+            </li>
+        </ul>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="main-container features__wrapper">
+            <ul class="features__list">
+                <li class="features__item all-order">
+                    <p class="features__description primary">Free Shipping</p>
+                    <p class="features__description secondary">all order</p>
+                </li>
+                <li class="features__item support">
+                    <p class="features__description primary">24/7 customer</p>
+                    <p class="features__description secondary">support</p>
+                </li>
+                <li class="features__item guarantee">
+                    <p class="features__description primary">money back</p>
+                    <p class="features__description secondary">guarantee</p>
+                </li>
+                <li class="features__item first-order">
+                    <p class="features__description primary">Member discount</p>
+                    <p class="features__description secondary">first order</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="main-banners">
+        <div class="main-container main-banners__wrapper">
+            <div class="l-banner">
+                <div class="l-banner__wrapper">
+                    <p class="l-banner__title">guest room <br><span>sofa</span></p>
+                    <p class="l-banner__content">-20%</p>
+                </div>
+            </div>
+            <div class="s-banners">
+                <div class="s-banners__item top">
+                    <div class="s-banners__wrapper">
+                        <p class="s-banners__title">office chair</p>
+                        <p class="s-banners__content">$200.00</p>
+                    </div>
+                </div>
+                <div class="s-banners__item bottom">
+                    <div class="s-banners__wrapper">
+                        <p class="s-banners__title">special collection</p>
+                        <p class="s-banners__content">Sale 45%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products-grid">
+        <div class="main-container">
+            <div class="tabs-block" id="tabs">
+                <div class="tabs-block__header">
+                    <ul class="tabs-block__list">
+                        <li class="tabs-block__title"><a href="#tabs-1">Chair</a></li>
+                        <li class="tabs-block__title"><a href="#tabs-2">Sofa</a></li>
+                    </ul>
+                </div>
+                <div class="products-grid__wrapper" id="tabs-1">
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Product Name</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-grid__wrapper" id="tabs-2">
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__inner">
+                            <div class="product-card__label-wrapper">
+                                <p class="product-card__label">Sale</p>
+                            </div>
+                            <div class="product-card__img">
+                                <img src="./img/product.jpg" alt="">
+                                <div class="product-card__hover-actions">
+                                    <button type="button" class="product-card__quick-view-button button">Quick view</button>
+                                    <button type="button" class="product-card__add-cart-button button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-card__details">
+                                <div class="product-card__description">
+                                    <a href="#" class="product-card__title">Sofa</a>
+                                    <div class="product-card__raiting">
+                                        <fieldset class="rating">
+                                            <div class="rating__container">
+                                            <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                            <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                            <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                            <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                            <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                
+                                            <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                            <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                
+                                            <div class="rating__focus"></div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="product-card__actions"> 
+                                    <div class="product-card__add-actions">
+                                        <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                        <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                    </div>
+                                    <div class="product-card__price">
+                                        <div class="product-card__old-price">$35.00</div>
+                                        <button class="product-card__current-price button">$25.00</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main-container flex-block">
+        <section class="products-gallery">
+                <div class="products-gallery__header block-header">
+                    <p class="products-gallery__title block-header__title">Furniture gallery</p>
+                </div>
+                <div class="products-gallery__slider">
+                    <div class="products-gallery__list">
+                        <div class="product-card">
+                            <div class="product-card__inner">
+                                <div class="product-card__img">
+                                    <img src="./img/product.jpg" alt="">
+                                    <div class="product-card__hover-actions">
+                                        <div class="product-card__add-actions">
+                                            <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                            <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                        </div>
+                                        <button type="button" class="product-card__quick-view-button actions-button"><i class="fas fa-eye"></i>Quick view</button>
+                                        <button type="button" class="product-card__add-cart-button actions-button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-card__details">
+                                    <div class="product-card__description">
+                                        <a href="#" class="product-card__title">Product Name</a>
+                                        <div class="product-card__raiting">
+                                            <fieldset class="rating">
+                                                <div class="rating__container">
+                                                <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                                <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                                <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                                <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                                <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                                <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                    
+                                                <div class="rating__focus"></div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__actions"> 
+                                        
+                                        <div class="product-card__price">
+                                            <div class="product-card__old-price">$35.00</div>
+                                            <button class="product-card__current-price button">$25.00</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card__inner">
+                                <div class="product-card__img">
+                                    <img src="./img/product.jpg" alt="">
+                                    <div class="product-card__hover-actions">
+                                        <div class="product-card__add-actions">
+                                            <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                            <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                        </div>
+                                        <button type="button" class="product-card__quick-view-button actions-button"><i class="fas fa-eye"></i>Quick view</button>
+                                        <button type="button" class="product-card__add-cart-button actions-button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-card__details">
+                                    <div class="product-card__description">
+                                        <a href="#" class="product-card__title">Product Name</a>
+                                        <div class="product-card__raiting">
+                                            <fieldset class="rating">
+                                                <div class="rating__container">
+                                                <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                                <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                                <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                                <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                                <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                                <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                    
+                                                <div class="rating__focus"></div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__actions"> 
+                                        
+                                        <div class="product-card__price">
+                                            <div class="product-card__old-price">$35.00</div>
+                                            <button class="product-card__current-price button">$25.00</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card__inner">
+                                <div class="product-card__img">
+                                    <img src="./img/product.jpg" alt="">
+                                    <div class="product-card__hover-actions">
+                                        <div class="product-card__add-actions">
+                                            <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                            <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                        </div>
+                                        <button type="button" class="product-card__quick-view-button actions-button"><i class="fas fa-eye"></i>Quick view</button>
+                                        <button type="button" class="product-card__add-cart-button actions-button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-card__details">
+                                    <div class="product-card__description">
+                                        <a href="#" class="product-card__title">Product Name</a>
+                                        <div class="product-card__raiting">
+                                            <fieldset class="rating">
+                                                <div class="rating__container">
+                                                <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                                <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                                <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                                <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                                <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                                <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                    
+                                                <div class="rating__focus"></div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__actions"> 
+                                        
+                                        <div class="product-card__price">
+                                            <div class="product-card__old-price">$35.00</div>
+                                            <button class="product-card__current-price button">$25.00</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card__inner">
+                                <div class="product-card__img">
+                                    <img src="./img/product.jpg" alt="">
+                                    <div class="product-card__hover-actions">
+                                        <div class="product-card__add-actions">
+                                            <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                            <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                        </div>
+                                        <button type="button" class="product-card__quick-view-button actions-button"><i class="fas fa-eye"></i>Quick view</button>
+                                        <button type="button" class="product-card__add-cart-button actions-button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-card__details">
+                                    <div class="product-card__description">
+                                        <a href="#" class="product-card__title">Product Name</a>
+                                        <div class="product-card__raiting">
+                                            <fieldset class="rating">
+                                                <div class="rating__container">
+                                                <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                                <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                                <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                                <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                                <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                                <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                    
+                                                <div class="rating__focus"></div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__actions"> 
+                                        
+                                        <div class="product-card__price">
+                                            <div class="product-card__old-price">$35.00</div>
+                                            <button class="product-card__current-price button">$25.00</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card__inner">
+                                <div class="product-card__img">
+                                    <img src="./img/product.jpg" alt="">
+                                    <div class="product-card__hover-actions">
+                                        <div class="product-card__add-actions">
+                                            <button type="button" class="product-card__add-wishlist actions-button"><i class="far fa-heart"></i></button>
+                                            <button type="button" class="product-card__add-compare actions-button"><i class="fas fa-exchange-alt"></i></button>
+                                        </div>
+                                        <button type="button" class="product-card__quick-view-button actions-button"><i class="fas fa-eye"></i>Quick view</button>
+                                        <button type="button" class="product-card__add-cart-button actions-button"><i class="fas fa-shopping-basket"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-card__details">
+                                    <div class="product-card__description">
+                                        <a href="#" class="product-card__title">Product Name</a>
+                                        <div class="product-card__raiting">
+                                            <fieldset class="rating">
+                                                <div class="rating__container">
+                                                <input class="rating__input" type="radio" name="rating" value="1" id="rating-1">
+                                                <label class="rating__star" for="rating-1" aria-label="Bad"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="2" id="rating-2">
+                                                <label class="rating__star" for="rating-2" aria-label="Not good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="3" id="rating-3">
+                                                <label class="rating__star" for="rating-3" aria-label="Good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="4" id="rating-4" checked>
+                                                <label class="rating__star" for="rating-4" aria-label="Very good"></label>
+                                                    
+                                                <input class="rating__input" type="radio" name="rating" value="5" id="rating-5">
+                                                <label class="rating__star" for="rating-5" aria-label="Excellent"></label>
+                                                    
+                                                <div class="rating__focus"></div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__actions"> 
+                                        
+                                        <div class="product-card__price">
+                                            <div class="product-card__old-price">$35.00</div>
+                                            <button class="product-card__current-price button">$25.00</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-gallery__nav">
+                        <div class="products-gallery__nav-item">
+                            <img src="./img/product.jpg" alt="">
+                        </div>
+                        <div class="products-gallery__nav-item">
+                            <img src="./img/product.jpg" alt="">
+                        </div>
+                        <div class="products-gallery__nav-item">
+                            <img src="./img/product.jpg" alt="">
+                        </div>
+                        <div class="products-gallery__nav-item">
+                            <img src="./img/product.jpg" alt="">
+                        </div>
+                        <div class="products-gallery__nav-item">
+                            <img src="./img/product.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="banner banner-secondary">
+            <div class="main-banners__wrapper">
+                <div class="l-banner">
+                    <div class="l-banner__wrapper">
+                        <p class="l-banner__title">from<span>$50.80</span></p>
+                        <p class="l-banner__content">Bedroom </p>
+                        <a href="#" class="button secondary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="blog-slider">
+        <div class="main-container">
+            <div class="block-header">
+                <p class="products-gallery__title block-header__title">latest blog</p>
+            </div>
+            <div class="blog-slider__wrapper">
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card__img">
+                        <img src="./img/product.jpeg" alt="">
+                        <div class="blog-card__info">
+                            <p class="blog-card__date"><i class="far fa-calendar-alt"></i>15 apr 2020</p>
+                            <p class="blog-card__comments"><i class="fas fa-comments"></i>4 comments</p>
+                        </div>
+                    </div>
+                    <div class="blog-card__details">
+                        <a href="#"><h3 class="blog-card__title">Products That Fight Static </h3></a>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat, eos vitae omnis atque a esse, odit commodi ad quidem dolorum ullam, debitis molestias</p>
+                        <div class="blog-card__button-wrapper">
+                            <a href="#" class="button blog-card__button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners-slider">
+        <div class="main-container partners-slider__wrapper">
+            <ul class="partners-slider__list">
+                <li class="partners-slider__item"><img src="./img/partner-logo.png" alt=""></li>
+                <li class="partners-slider__item"><img src="./img/partner-logo.png" alt=""></li>
+                <li class="partners-slider__item"><img src="./img/partner-logo.png" alt=""></li>
+                <li class="partners-slider__item"><img src="./img/partner-logo.png" alt=""></li>
+                <li class="partners-slider__item"><img src="./img/partner-logo.png" alt=""></li>
+                <li class="partners-slider__item"><img src="./img/partner-logo.png" alt=""></li>
+                <li class="partners-slider__item"><img src="./img/partner-logo.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="main-container footer-nav__wrapper">
+                    <div class="footer-nav">
+                        <b class="footer-nav__title">About us</b>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a href="">About us</a></li>
+                            <li class="footer-nav__item"><a href="">Privacy</a></li>
+                            <li class="footer-nav__item"><a href="">Conditions</a></li>
+                            <li class="footer-nav__item"><a href="">Online-support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <b class="footer-nav__title">My account</b>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a href="">Login</a></li>
+                            <li class="footer-nav__item"><a href="">My cart</a></li>
+                            <li class="footer-nav__item"><a href="">Wishlist</a></li>
+                            <li class="footer-nav__item"><a href="">Checkout</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <b class="footer-nav__title">Information</b>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a href="">Specials</a></li>
+                            <li class="footer-nav__item"><a href="">New Products</a></li>
+                            <li class="footer-nav__item"><a href="">Best Sellers</a></li>
+                            <li class="footer-nav__item"><a href="">Our Stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                    <b class="footer-nav__title">Orders</b>
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item"><a href="">Payment options</a></li>
+                        <li class="footer-nav__item"><a href="">Shipping and delivery</a></li>
+                        <li class="footer-nav__item"><a href="">Returns</a></li>
+                        <li class="footer-nav__item"><a href="">Shipping</a></li>
+                        <li class="footer-nav__item payment-list"><a href=""><img src="./img/payments.png" width="240" height="35" alt=""></a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="main-container footer-bottom__inner">
+                <div class="footer-bottom__item"></div>
+                <p class="footer-bottom__item copyright">©Copyright 2016 Bazar | All Rights Reserved</p>
+                    <ul class="footer-bottom__item social__list">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- 
+    <a href="" class="button">
+        <i class="fa fa-user"></i>
+        Открыть
+    </a>
+    <a href="" class="button _secondary">
+        <i class="fa fa-shopping-cart"></i>
+        Открыть
+    </a>
+    <button class="button">button</button>
+    <input type="button" class="button" value="ASDA"/>
+    <input type="submit" class="button" /> -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
