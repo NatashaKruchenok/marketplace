@@ -1,0 +1,40 @@
+.tabs-block {
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 4px #e2e2e2;
+        margin-bottom: 30px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateY(4px);
+    }
+
+    &__title {
+        &.ui-state-active {
+            a {
+                border-color: @color-primary;
+                color: @color-primary;
+            }
+        }
+    }
+
+    &__title a {
+        display: block;
+        color: @dark-gray;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 15px 10px;
+        border-bottom: 4px solid transparent;
+        outline: none;
+        line-height: 1;
+
+        &:hover { 
+        color: @color-primary;
+        }
+    }
+}
