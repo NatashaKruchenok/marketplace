@@ -1,0 +1,146 @@
+.sale-block__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main-slider {
+    width: calc(100% - 360px - 30px);
+
+    &__item {
+    position: relative;
+    background-color: #e2e2e2;
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        height: @height-main-slider;
+    }
+
+    &__img img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 250px;
+        background-color: fade(@light-gray, 70%);
+        position: absolute;
+        top: calc(50% - 250px / 2);
+        right: 0;
+        left: 0;
+    }
+
+    &__description {
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 1;
+        margin: 0;
+
+        &.primary {
+            font-size: 54px;
+            margin-bottom: 10px;
+        }
+
+        &.secondary {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__button {
+
+        background: #ffffff;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: @dark-gray;
+        line-height: 1;
+        border-radius: 4px;
+        height: 55px;
+        padding: 0 30px;
+    }
+
+    & .slick-arrow {
+        background: @dark-gray;
+        width: 50%;
+        height: 42px;
+        bottom: 0;
+        top: calc(100% + 42px / 2);
+        transition: background 0.2s ease-in-out;
+
+        &.slick-prev {
+            left: 0;
+
+            &:before {
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 600;
+                content: "\f104";
+            }
+        }
+
+        &.slick-next {
+            right: 0;
+
+            &:before {
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 600;
+                content: "\f105";
+            }
+        }
+
+        &:hover {
+            background: @color-primary;
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: @screen-m) {
+    .sale-block__inner {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .product-card-slider__wrap {
+        display: none;
+    }
+
+    .main-slider {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media (max-width: @screen-s) {
+    .main-slider {
+
+        &__description {
+
+            &.primary {
+                font-size: 40px;
+            }
+            
+            &.secondary {
+                font-size: 24px;
+            }
+        }
+
+        &__button {
+            font-size: 12px;
+            padding: 0 20px;
+            height: 45px;
+        }
+
+    }
+}
+

@@ -1,0 +1,73 @@
+.button {
+    & {
+        font: 600 14px 'Poppins', sans-serif;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        padding: 0 15px;
+        border: none ;
+        text-decoration: none;
+        color: #fff;
+        background-color: @dark-gray;
+        cursor: pointer;
+        box-shadow: none;
+        transition: background 0.3s ease-in-out;
+        box-sizing: border-box;
+    }
+
+    &.secondary {
+        background: @color-secondary;
+        border-radius: 4px;
+        padding: 25px 30px;
+    }
+
+    &:not([disabled]) {
+        &:hover {
+            background: @color-primary;
+        }
+
+        &:active {
+            background: darken(@color-primary, 10%);
+        }
+
+        &:focus {
+            background: lighten(@color-primary, 10%);
+        }
+    }
+
+    > .fa {
+        margin-right: 10px;
+    }
+}
+
+
+.actions-button {
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    color: @dark-gray;
+    font-size: 16px;
+    background-color: inherit;
+    border: 1px solid @dark-gray;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    &:hover {
+        background: @color-primary;
+        color: #fff;
+        border-color: @color-primary;
+    }
+
+    &:active {
+        background: darken(@color-primary, 10%);
+        color: #fff;
+        border-color: @color-primary;
+    }
+
+    &:focus {
+        background: lighten(@color-primary, 10%);
+        color: #fff;
+        border-color: @color-primary;
+    }
+}

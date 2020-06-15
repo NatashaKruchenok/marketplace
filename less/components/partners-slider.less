@@ -1,0 +1,60 @@
+.partners-slider {
+    margin-bottom: 60px;
+
+    .slick-arrow {
+        background: @dark-gray;
+        width: 30px;
+        height: 70px;
+        transition: background 0.2s ease-in-out;
+
+        &.slick-prev {
+            left: 0;
+            z-index: 2;
+
+            &:before {
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 600;
+                content: "\f104";
+            }
+        }
+
+        &.slick-next {
+            right: 0;
+            z-index: 2;
+
+            &:before {
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 600;
+                content: "\f105";
+            }
+        }
+
+        &:hover {
+            background: @color-primary;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2;
+        padding-top: 20px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+        width: 140px;
+        height: 95px;   
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }   
+}

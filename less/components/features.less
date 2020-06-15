@@ -1,0 +1,115 @@
+.features {
+    margin-bottom: 30px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 265px;
+        padding: 55px 0 20px 0;
+        border: 1px solid @color-gray-soft;
+        position: relative;
+        margin: 0 15px;
+
+        &::before {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 600;
+            font-size: 26px;
+            color: @dark-gray;
+            height: 60px;
+            width: 60px;
+            border-radius: 50px;
+            box-shadow: 0 0 0 1px @color-gray-soft, 0 0 0 9px #ffffff, 0 0 0 10px @color-gray-soft;
+            background-color: #ffffff;
+            position: absolute;
+            left: calc(50% - 60px / 2);
+            bottom: calc(100% - 60px / 2);
+            transition: all 0.2s ease-in-out;
+        }
+
+        &.all-order::before {
+            content: '\f0d1';
+        }
+
+        &.support::before {
+            content: '\f025';
+        }
+
+        &.guarantee::before {
+            content: '\f122';
+        }
+
+        &.first-order::before {
+            content: '\f0a1';
+        }
+    }
+
+    &__description {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 1;
+        color: @dark-gray;
+        transition: color 0.2s ease-in-out;
+
+        &.primary {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        &.secondary {
+            font-weight: 400;
+        }
+    }
+
+    &__item:hover {
+        .features__description{
+            color: @color-primary;
+        }
+
+        &::before {
+            color: @color-primary;
+            box-shadow: 0 0 0 1px @color-primary, 0 0 0 9px #ffffff, 0 0 0 10px @color-primary;
+        }
+
+    }
+    
+}
+
+@media (max-width: @screen-m) {
+
+    .features {
+        margin-bottom: none;
+        
+        &__list {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: calc( 50% - @desktop-gap);
+            margin-bottom: calc(@desktop-gap * 2);
+        }
+
+    }
+
+}
+
+@media (max-width: @screen-xs) {
+    .features {
+
+        &__item {
+            width: 100%;
+        }
+    }
+}
