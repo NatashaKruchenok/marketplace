@@ -8,15 +8,15 @@ var gulp = require('gulp'),
 
 gulp.task('less', function (done) {
 
-    gulp.src('./src/less/source.less')
+    gulp.src('./less/source.less')
         .pipe(less())
         .pipe(concat('source.css'))
-        .pipe(gulp.dest('./src/css'));
+        .pipe(gulp.dest('./css'));
 
     done();
 });
 
 gulp.task('watch:less', function () {
-    gulp.watch('./src/less/**/*.less', series('less'));
+    gulp.watch('./less/**/*.less', series('less'));
 });
 
